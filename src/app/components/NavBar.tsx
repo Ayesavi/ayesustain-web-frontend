@@ -1,21 +1,20 @@
 "use client";
 
-import React from "react";
 import {
+  Button,
+  Dropdown,
+  DropdownItem,
+  DropdownMenu,
+  DropdownTrigger,
+  Link,
   Navbar,
   NavbarBrand,
   NavbarContent,
   NavbarItem,
-  Link,
-  Button,
-  DropdownItem,
-  DropdownTrigger,
-  Dropdown,
-  DropdownMenu,
 } from "@nextui-org/react";
 import { ChevronDown } from "lucide-react";
-import Logo from "../icons/logo";
 import { Philosopher } from "next/font/google";
+import Logo from "../icons/logo";
 
 const philosopher = Philosopher({ weight: "700", subsets: ["latin"] });
 
@@ -140,7 +139,14 @@ export default function NavBar() {
           <Link href="#">Login</Link>
         </NavbarItem>
         <NavbarItem>
-          <Button as={Link} color="primary" href="#" variant="flat">
+          <Button
+            color="primary"
+            href="#"
+            variant="flat"
+            onPress={() => {
+              console.log("H");
+            }}
+          >
             Sign Up
           </Button>
         </NavbarItem>
