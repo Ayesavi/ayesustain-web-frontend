@@ -10,9 +10,7 @@ export default function Hero() {
         <div className="flex flex-col justify-center items-start p-[5%] text-left">
           <p className="text-xl font-bold ">Sustainifying Your Vision</p>
           <p className="text-primary font-bold my-4">AyeSustain,</p>
-          <p className="text-3xl my-1">
-            Where Success Meets Sustainability
-          </p>
+          <p className="text-3xl my-1">Where Success Meets Sustainability</p>
           <p className="text-neutral-500 text-xl my-1">
             Unlock exponential ESG growth with AyeSustain, Amplify your impact
             and Elevate sustainability.

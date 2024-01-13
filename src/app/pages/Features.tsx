@@ -13,7 +13,7 @@ export default function Features() {
         <div className="flex justify-center my-10">
           <Card className="w-[20%] mx-5 px-2 py-5">
             <CardHeader className="relative mx-5 mt-5 bg-cyan-200/50 rounded-full h-8 w-8">
-              <Settings className="absolute -translate-x-5 -translate-y-2 h-8 w-8"/>
+              <Settings className="absolute -translate-x-5 -translate-y-2 h-8 w-8" />
             </CardHeader>
             <CardBody className="mb-5">
               <p className="font-bold text-xl my-2">Strategy Development</p>
@@ -25,7 +25,7 @@ export default function Features() {
           </Card>
           <Card className="w-[20%] mx-5 px-2 py-5">
             <CardHeader className="relative mx-5 mt-5 bg-orange-300/50 rounded-full h-8 w-8">
-              <UserRoundCog className="absolute -translate-x-5 -translate-y-2 h-8 w-8"/>
+              <UserRoundCog className="absolute -translate-x-5 -translate-y-2 h-8 w-8" />
             </CardHeader>
             <CardBody className="mb-5">
               <p className="font-bold text-xl my-2">Stakeholder Engagement</p>
@@ -37,10 +37,12 @@ export default function Features() {
           </Card>
           <Card className="w-[20%] mx-5 px-2 py-5">
             <CardHeader className="relative mx-5 mt-5 bg-pink-300/50 rounded-full h-8 w-8">
-              <BadgeCheck className="absolute -translate-x-5 -translate-y-2 h-8 w-8"/>
+              <BadgeCheck className="absolute -translate-x-5 -translate-y-2 h-8 w-8" />
             </CardHeader>
             <CardBody className="mb-5">
-              <p className="font-bold text-xl my-2">ESG Reporting and Disclosure</p>
+              <p className="font-bold text-xl my-2">
+                ESG Reporting and Disclosure
+              </p>
               <p className="text-medium text-neutral-500">
                 {" "}
                 Ensure transparent compliance and accountability.{" "}
