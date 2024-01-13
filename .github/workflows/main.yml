@@ -1,0 +1,29 @@
+name: TypeScript Format Check
+
+on:
+  push:
+    paths:
+      - '**/*.ts'
+      - '**/*.tsx'
+
+jobs:
+  format-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 14
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Check TypeScript formatting
+        run: npx prettier --check '**/*.ts' '**/*.tsx'
+
+      - name: Check for changes
+        run: git diff --exit-code
