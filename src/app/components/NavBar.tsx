@@ -33,8 +33,8 @@ export default function NavBar() {
           <p
             className={`${philosopher.className} font-extralight text-sm text-primary tracking-wider`}
           >
-            SUSTAINIFYING YOUR VISION
-          </p>
+            SUSTAINIFYING YOUR VISION    
+          </p>    
         </Link>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-8" justify="center">
