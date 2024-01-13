@@ -2,6 +2,9 @@ name: TypeScript Format Check
 
 on:
   push:
+    branches:
+      - main
+      - development
     paths:
       - '**/*.ts'
       - '**/*.tsx'
