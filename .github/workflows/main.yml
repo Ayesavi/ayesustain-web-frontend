@@ -1,7 +1,7 @@
 name: TypeScript Format Check
 
 on:
-  push:
+  pull_request:
     branches:
       - main
       - development
@@ -27,6 +27,3 @@ jobs:
 
       - name: Check TypeScript formatting
         run: npx prettier --check '**/*.ts' '**/*.tsx'
-
-      - name: Check for changes
-        run: git diff --exit-code
