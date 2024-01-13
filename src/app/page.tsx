@@ -1,6 +1,13 @@
+import Hero from "./pages/Hero";
+import Features from "./pages/Features";
+
 export default function Home() {
   return (
     <div className="text-5xl text-neutral-700 text-center p-4">
+
+    <Hero />
+    <Features />
+
       initial commit Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
       voluptatibus temporibus aliquid fuga, explicabo soluta tenetur. Explicabo
       tempora debitis vitae veniam architecto, voluptatibus et sit fugiat fuga

@@ -21,7 +21,7 @@ const philosopher = Philosopher({ weight: "700", subsets: ["latin"] });
 
 export default function NavBar() {
   return (
-    <Navbar className="bg-blur px-4 py-2" maxWidth="full" shouldHideOnScroll>
+    <Navbar className=" px-4 py-2" maxWidth="full">
       <NavbarBrand>
         <Logo />
         <Link className="flex flex-col items-center mx-2" href="/">
@@ -140,7 +140,7 @@ export default function NavBar() {
           <Link href="#">Login</Link>
         </NavbarItem>
         <NavbarItem>
-          <Button as={Link} color="primary" href="#" variant="flat">
+          <Button as={Link} color="primary" href="#" variant="solid">
             Sign Up
           </Button>
         </NavbarItem>
