@@ -24,7 +24,7 @@ export default function NavBar() {
     <Navbar className="bg-blur px-4 py-2" maxWidth="full" shouldHideOnScroll>
       <NavbarBrand>
         <Logo />
-        <Link className="flex flex-col items-center mx-2" href='/'>
+        <Link className="flex flex-col items-center mx-2" href="/">
           <p
             className={`${philosopher.className} font-bold text-4xl text-primary`}
           >
@@ -137,7 +137,7 @@ export default function NavBar() {
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem className="hidden lg:flex">
-          <Link href="#" >Login</Link>
+          <Link href="#">Login</Link>
         </NavbarItem>
         <NavbarItem>
           <Button as={Link} color="primary" href="#" variant="flat">
