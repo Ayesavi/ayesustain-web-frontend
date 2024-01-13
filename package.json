@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "format": "npx prettier --write **/*.ts **/*.tsx",
+    "ayebuild":"ayebuild.bat",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
