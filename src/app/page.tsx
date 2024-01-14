@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="text-5xl text-neutral-700 text-center p-4">
       <Hero />
-      <Divider className="my-10 w-[75%] mx-auto"/>
+      <Divider className="my-10 w-[75%] mx-auto" />
       <Features />
       <Assess />
       <Assess2 />

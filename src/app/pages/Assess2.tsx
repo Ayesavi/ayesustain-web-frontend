@@ -14,14 +14,14 @@ export default function Assess2() {
               responsibility frameworks, for sustainable success.
             </p>
             <div className="flex flex-col items-start my-4 py-4 pl-4 justify-start w-[30vw] rounded-xl border-2">
-                <div className="flex items-center ">
-                  <div className="bg-primary/75 h-4 w-4 rounded-full mx-4"></div>
-                  <p className="text-2xl font-bold">Optimization</p>
-                </div>
-                <p className="text-neutral-500 text-lg ml-12">
-                  Elevate ESG tool efficiency with AyeSustain&apos;s <br />{" "}
-                  expert assessment.
-                </p>
+              <div className="flex items-center ">
+                <div className="bg-primary/75 h-4 w-4 rounded-full mx-4"></div>
+                <p className="text-2xl font-bold">Optimization</p>
+              </div>
+              <p className="text-neutral-500 text-lg ml-12">
+                Elevate ESG tool efficiency with AyeSustain&apos;s <br /> expert
+                assessment.
+              </p>
             </div>
             <div className="flex flex-col items-start my-4 py-4 pl-4 justify-start w-[30vw] rounded-xl border-2">
               <div className="flex items-center ">
