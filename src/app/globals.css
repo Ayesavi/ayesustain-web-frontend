@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .gradient-border{
+        border-width: 1px;
+        border-image: linear-gradient(to right, #eee, #ccc);
+           border-image-slice: 1;
+        border-radius: 0.25rem;
+        /* @apply rounded-xl; */
+    }
+}
