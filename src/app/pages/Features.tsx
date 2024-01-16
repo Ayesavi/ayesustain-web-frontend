@@ -4,7 +4,7 @@ import { Settings, UserRoundCog, BadgeCheck, Badge } from "lucide-react";
 export default function Features() {
   return (
     <>
-      <div className="mx-10 my-20">
+      <div className="mx-4 md:mx-10 my-10 md:my-20">
         <p className="font-bold text-3xl">Explore Premium Features</p>
         <p className="text-neutral-500 text-lg m-2">
           We provide ESG services, focusing on sustainable growth, transparent
