@@ -5,7 +5,9 @@ export default function Features() {
   return (
     <>
       <div className="mx-4 md:mx-10 my-10 md:my-20">
-        <p className="font-bold text-xl md:text-3xl">Explore Premium Features</p>
+        <p className="font-bold text-xl md:text-3xl">
+          Explore Premium Features
+        </p>
         <p className="text-neutral-500 text-sm md:text-lg m-2">
           We provide ESG services, focusing on sustainable growth, transparent
           compliance, <br /> and proactive stakeholder engagement.
@@ -16,7 +18,9 @@ export default function Features() {
               <Settings className="absolute -translate-x-5 -translate-y-2 h-8 w-8" />
             </CardHeader>
             <CardBody className="mb-5">
-              <p className="font-bold text-medium md:text-xl my-2">Strategy Development</p>
+              <p className="font-bold text-medium md:text-xl my-2">
+                Strategy Development
+              </p>
               <p className="text-sm md:text-medium text-neutral-500">
                 {" "}
                 Craft sustainable business growth strategies.{" "}
@@ -28,7 +32,9 @@ export default function Features() {
               <UserRoundCog className="absolute -translate-x-5 -translate-y-2 h-8 w-8" />
             </CardHeader>
             <CardBody className="mb-5">
-              <p className="font-bold text-medium md:text-xl my-2">Stakeholder Engagement</p>
+              <p className="font-bold text-medium md:text-xl my-2">
+                Stakeholder Engagement
+              </p>
               <p className="text-sm md:text-medium text-neutral-500">
                 {" "}
                 Foster proactive communication for positive impact.{" "}
