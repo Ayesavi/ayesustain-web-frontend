@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Assess() {
   return (
     <>
-      <div className="mx-[10%] h-[70vh] relative">
+      <section className="mx-[10%] h-[70vh] relative">
         <Image
           src="/images/home3.png"
           alt=""
@@ -49,7 +49,7 @@ export default function Assess() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

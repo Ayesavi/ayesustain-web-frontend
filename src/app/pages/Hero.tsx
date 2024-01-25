@@ -6,7 +6,7 @@ import { ExternalLink } from "lucide-react";
 export default function Hero() {
   return (
     <>
-      <div className="flex justify-around h-[90dvh] mx-10">
+      <section className="flex justify-around h-[90dvh] mx-10">
         <div className="flex flex-col justify-center items-start p-[5%] text-left">
           <p className="text-xl font-bold ">Sustainifying Your Vision</p>
           <p className="text-primary font-bold my-4">AyeSustain,</p>
@@ -44,7 +44,7 @@ export default function Hero() {
             height={1}
           />
         </div>
-      </div>
+      </section>
     </>
   );
 }
